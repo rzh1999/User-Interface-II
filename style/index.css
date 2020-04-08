@@ -14,7 +14,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
@@ -22,6 +22,54 @@ time, mark, audio, video {
 
 /* Borders to all */
 *{
-    border: 1px solid black;
-    background-color: blue;
+    border: 2px solid black;
+   
+}
+
+/* Name Style */
+#name{
+    font-size: 50px;
+}
+.navButton{
+    padding: 5px 20px;
+    background: lightblue;
+    border: 1px solid gray;
+    margin: 10px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    color: black;
+}
+.topImage{
+    width:40%;
+   
+}
+
+.mainContainer {
+    display:flex;
+    align-items: center;
+    
+}
+.mainContainer div{
+    
+width:50%;
+}
+.mainContainer .test{
+    width:20%;
+    margin-left: 20px;
+}
+.mainContainer div img{
+    width:100%;
+}
+.subHeader{
+    font-size:30px;
+}
+.projectButton{
+    
+    width:25%;
+    font-size:25px;
+    background:teal;
+    color:white;
+}
+.projectText{
+    font-size:20px;
 }
