@@ -1,3 +1,4 @@
+/* Photo by Markus Spiske on Unsplash */
 /* CSS RESET */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -21,55 +22,99 @@ time, mark, audio, video {
 }
 
 /* Borders to all */
-*{
-    border: 2px solid black;
-   
+body{
+    background-image: url(https://drive.google.com/uc?id=129U_OyOvm1SXFgdkwV1QZQ8tlWKWvc7m);
 }
 
 /* Name Style */
-#name{
-    font-size: 50px;
-}
-.navButton{
-    padding: 5px 20px;
-    background: lightblue;
-    border: 1px solid gray;
-    margin: 10px 10px;
-    border-radius: 5px;
-    display: inline-block;
-    color: black;
-}
-.topImage{
-    width:40%;
-   
+h1{
+    font-size: 60px;
+    font-family: 'Special Elite', cursive;
 }
 
-.mainContainer {
+nav a{
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-size:25px;
+  margin:1%;
+  color:white;
+  background-color: gray;  
+}
+
+nav a:hover{
+ color:lightsteelblue;
+ text-transform: uppercase;
+}
+.mainSection{
     display:flex;
     align-items: center;
+}
+.mainSection img{
     
+    border: 2px solid black;
+   margin-left: 20px;
+   margin-right: 20px;
+    width: 50%; 
 }
-.mainContainer div{
-    
-width:50%;
+h2{
+    font-size: 30px;
+    font-family: 'Special Elite', cursive; 
 }
-.mainContainer .test{
-    width:20%;
-    margin-left: 20px;
-}
-.mainContainer div img{
-    width:100%;
-}
-.subHeader{
-    font-size:30px;
-}
-.projectButton{
-    
-    width:25%;
-    font-size:25px;
-    background:teal;
-    color:white;
-}
-.projectText{
+.myButton a{
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
     font-size:20px;
+    color:white;
+    background-color: gray;  
+    }
+
+.myButton a:hover{
+    color:lightsteelblue;
+    text-transform: uppercase;
+   }
+p{
+    font-size:20px;
+    line-height: 1.5;
+    
+}
+   
+.mainSection{
+    display: flex;
+    width:70%;
+}
+
+
+
+ .container{
+     width:90%;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: flex-start;
+     
+ }
+
+ .item{
+margin:20px;
+ }
+
+figcaption{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container a{
+    font-family: 'Special Elite', cursive; 
+    color:black;
+}
+.container a:hover{
+    color:steelblue;
+}
+.footerNav{
+    display:flex;
+    justify-content: center;
 }
