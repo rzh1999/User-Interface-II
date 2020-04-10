@@ -1,1 +1,120 @@
-/* Add CSS styling here */
+/* Photo by Markus Spiske on Unsplash */
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/*border: 0;*/
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+
+/* Borders to all */
+body{
+    background-image: url(https://drive.google.com/uc?id=129U_OyOvm1SXFgdkwV1QZQ8tlWKWvc7m);
+}
+
+/* Name Style */
+h1{
+    font-size: 60px;
+    font-family: 'Special Elite', cursive;
+}
+
+nav a{
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-size:25px;
+  margin:1%;
+  color:white;
+  background-color: gray;  
+}
+
+nav a:hover{
+ color:lightsteelblue;
+ text-transform: uppercase;
+}
+.mainSection{
+    display:flex;
+    align-items: center;
+}
+.mainSection img{
+    
+    border: 2px solid black;
+   margin-left: 20px;
+   margin-right: 20px;
+    width: 50%; 
+}
+h2{
+    font-size: 30px;
+    font-family: 'Special Elite', cursive; 
+}
+.myButton a{
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size:20px;
+    color:white;
+    background-color: gray;  
+    }
+
+.myButton a:hover{
+    color:lightsteelblue;
+    text-transform: uppercase;
+   }
+p{
+    font-size:20px;
+    line-height: 1.5;
+    
+}
+   
+.mainSection{
+    display: flex;
+    width:70%;
+}
+
+
+
+ .container{
+     width:90%;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: flex-start;
+     
+ }
+
+ .item{
+margin:20px;
+ }
+
+figcaption{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container a{
+    font-family: 'Special Elite', cursive; 
+    color:black;
+}
+.container a:hover{
+    color:steelblue;
+}
+.footerNav{
+    display:flex;
+    justify-content: center;
+}
