@@ -116,7 +116,86 @@ figcaption{
 .container a:hover{
     color:steelblue;
 }
+.footerNav a{
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size:2.5rem;
+    margin:1%;
+    color:white;
+    background-color: gray;  
+  }
+  
+ .footerNav a:hover{
+   color:lightsteelblue;
+   text-transform: uppercase;
+  }
+
 .footerNav{
     display:flex;
     justify-content: center;
+}
+@media(max-width:500px){
+    .mainSection{
+        flex-direction: column;
+       
+      }  
+   
+    .mainSection .introduction{
+        
+        margin:5% 0% 0% 20%;
+    }
+    .mainSection .myButton{
+        margin:0% 0% 0% 13%;
+    }
+    .name{
+        margin:0% 0% 0% 5%;
+    }
+    .container{
+        width:50%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        
+    }
+    .container .item{
+        width:80%;
+        margin-left: 30%;
+    }
+    figcaption{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0% 0% 0% 35%;
+    }
+
+    .footerNav a{
+        font-size:1.5rem;
+        /* margin:0% 10% 0% 10%; */
+        color:white;
+        background-color: gray;  
+            
+    }
+}
+
+@media(max-width:800px){
+    .container{
+        width:100%;
+    }
+    
+    /* .mainSection .introduction .about{
+        background-color: red;
+        width:100%;
+        height:100%;
+    } */
+
+     .container img{
+        width:40%;
+    }
+    figcaption{
+        text-align: left;
+        font-size: 1.8rem;
+        margin: 0% 0% 0% 15%;
+    }
 }
